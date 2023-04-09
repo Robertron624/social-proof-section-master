@@ -16,6 +16,8 @@ body {
     margin: 0;
     box-sizing: border-box;
     padding: 0;
+    background: url(./images/bg-pattern-top-mobile.svg) no-repeat top left,
+                url(./images/bg-pattern-bottom-mobile.svg) no-repeat bottom right;
 }
 
 main {
@@ -109,6 +111,11 @@ section#stars {
 }
 
 @media screen and (min-width: 768px) {
+
+    body {
+        background: url(./images/bg-pattern-top-desktop.svg) no-repeat top left,
+                    url(./images/bg-pattern-bottom-desktop.svg) no-repeat bottom right;
+    }
 
     main {
         padding: 0 4rem;
